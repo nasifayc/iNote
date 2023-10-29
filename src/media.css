@@ -1,0 +1,48 @@
+/*Making a littel responsive */
+
+@media (max-width: 1054px) {
+  .css-container{
+    grid-template-columns: 250px 250px;
+  }
+  header:hover .brand{
+    left: 100px;
+  }
+  header:hover .css-counter-box{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .css-container{
+    grid-template-columns: 350px;
+    
+  }
+  header:hover .brand{
+    left: 30px;
+  }
+  header:hover .css-counter-box{
+    right: 30px;
+  }
+  header:hover .header-element-container{
+    width: 180px;
+  }
+}
+
+@media (max-width: 585px) {
+  .css-container{
+    grid-template-columns: 250px;
+    grid-auto-rows: auto;
+  }
+  header:hover .brand{
+    left: 10px;
+  }
+  header:hover .css-counter-box{
+    right: 10px;
+  }
+  header:hover .header-element-container{
+    width: 150px;
+  }
+
+}
