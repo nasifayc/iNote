@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iNote</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+<body>
+  <header>
+    <p class="brand"><span class="i-logo">i</span>Note</p>
+    <img src="caret-down-solid.svg" class="arrow">
+    <div class="header-element-container">
+      <input id="title-input" class="css-title-input" type="text" placeholder="TITLE">
+      <textarea id="note-input" class="css-note-input" placeholder="ADD NOTE . . ." cols="20" rows="6"></textarea>
+      <button id="add-button">+</button>
+    </div>
+    <div class="css-counter-box">
+      <div class="counter css-counter"></div>
+      <p>Notes</p>
+    </div>
+  </header>
+  <main>
+    <div class="container css-container">
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
